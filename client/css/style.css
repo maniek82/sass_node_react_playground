@@ -49,5 +49,8 @@ body {
 .row .col-1-of-5 {
   width: calc((100% - 4* 2rem) /5);
 }
+.row .col-2-of-5 {
+  width: calc(2*((100% - 4* 2rem) /5) + 2rem);
+}
 
 /*# sourceMappingURL=style.css.map */
