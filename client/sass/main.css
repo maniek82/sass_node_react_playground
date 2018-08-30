@@ -6,6 +6,15 @@
   box-sizing: inherit; }
 
 body {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  background-color: #c4f7f8; }
+
+.grid-test {
+  width: 120rem; }
+  .grid-test .row:not(:first-child) {
+    margin-right: 10rem; }
+  .grid-test .col-1-of-2 {
+    background: #d5d5d5;
+    width: calc(100%-); }
 
 /*# sourceMappingURL=main.css.map */
